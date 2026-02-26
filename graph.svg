@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1328 531" width="1328" height="531" font-family="'Palatino Linotype', Palatino, Georgia, serif">
+
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a7c59"/>
+    </marker>
+    <marker id="arrGray" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#888"/>
+    </marker>
+    <marker id="arrRed" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c0392b"/>
+    </marker>
+    <marker id="arrAmber" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d4891a"/>
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1328" height="531" fill="#ffffff"/>
+
+  <!-- Top title bar - thin earthy green -->
+  <rect x="0" y="0" width="1328" height="6" fill="#4a7c59"/>
+
+  <!-- ══════════════════════ TITLE ══════════════════════ -->
+  <text x="664" y="32" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#1a2e1a" letter-spacing="0.3">Compound Shocks and Food Security in Protracted Displacement: Somalia</text>
+  <text x="664" y="50" text-anchor="middle" font-size="11" fill="#5a6a5a">Mohamed &amp; Dirir | Nagoya University | n = 2,450 households | World Bank Survey 2020–2021</text>
+
+  <!-- Divider line -->
+  <line x1="40" y1="60" x2="1288" y2="60" stroke="#d0d8d0" stroke-width="1"/>
+
+  <!-- ══════════════════════ COLUMN 1: SHOCKS (left) ══════════════════════ -->
+  <!-- Column label -->
+  <text x="168" y="82" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#4a7c59" letter-spacing="0.5">THREE COMPOUND SHOCKS</text>
+
+  <!-- ---- SHOCK BOX 1: Climate ---- -->
+  <rect x="40" y="92" width="255" height="110" rx="10" fill="#f5faf6" stroke="#a8c8b0" stroke-width="1.5"/>
+  <!-- Sun icon -->
+  <circle cx="82" cy="130" r="18" fill="none" stroke="#d4891a" stroke-width="2.5"/>
+  <circle cx="82" cy="130" r="9" fill="#f5c842" opacity="0.85"/>
+  <!-- rays -->
+  <g stroke="#d4891a" stroke-width="2" stroke-linecap="round">
+    <line x1="82" y1="107" x2="82" y2="103"/>
+    <line x1="82" y1="153" x2="82" y2="157"/>
+    <line x1="59" y1="130" x2="55" y2="130"/>
+    <line x1="105" y1="130" x2="109" y2="130"/>
+    <line x1="66" y1="114" x2="63" y2="111"/>
+    <line x1="98" y1="146" x2="101" y2="149"/>
+    <line x1="98" y1="114" x2="101" y2="111"/>
+    <line x1="66" y1="146" x2="63" y2="149"/>
+  </g>
+  <!-- Crack/dry earth lines under sun -->
+  <g stroke="#b07040" stroke-width="1.2" opacity="0.7" stroke-linecap="round">
+    <line x1="60" y1="158" x2="70" y2="165"/>
+    <line x1="70" y1="165" x2="63" y2="173"/>
+    <line x1="70" y1="165" x2="78" y2="173"/>
+    <line x1="78" y1="158" x2="88" y2="165"/>
+    <line x1="88" y1="165" x2="80" y2="175"/>
+    <line x1="88" y1="165" x2="96" y2="175"/>
+    <line x1="96" y1="158" x2="106" y2="166"/>
+  </g>
+  <text x="125" y="116" font-size="12" font-weight="bold" fill="#2c4a2c">Climate Shocks</text>
+  <text x="125" y="133" font-size="10" fill="#4a5a4a">Drought, floods, locust</text>
+  <text x="125" y="147" font-size="10" fill="#4a5a4a">75% of new displacements</text>
+  <text x="125" y="161" font-size="10" fill="#4a5a4a">in 2023 (climate-driven)</text>
+  <text x="125" y="180" font-size="10.5" fill="#d4891a" font-style="italic">→ 53.4% food insecure</text>
+
+  <!-- ---- SHOCK BOX 2: Conflict ---- -->
+  <rect x="40" y="213" width="255" height="110" rx="10" fill="#fdf5f5" stroke="#d4a0a0" stroke-width="1.5"/>
+  <!-- Simple shield / conflict icon -->
+  <polygon points="82,222 100,228 100,248 82,258 64,248 64,228" fill="none" stroke="#c0392b" stroke-width="2.2"/>
+  <line x1="74" y1="230" x2="90" y2="250" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="90" y1="230" x2="74" y2="250" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+  <!-- Displaced figures (simple silhouettes) -->
+  <circle cx="65" cy="275" r="5" fill="#c0392b" opacity="0.6"/>
+  <line x1="65" y1="280" x2="65" y2="295" stroke="#c0392b" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="65" y1="283" x2="59" y2="290" stroke="#c0392b" stroke-width="1.5" opacity="0.6"/>
+  <line x1="65" y1="283" x2="71" y2="290" stroke="#c0392b" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="82" cy="273" r="5" fill="#c0392b" opacity="0.5"/>
+  <line x1="82" y1="278" x2="82" y2="293" stroke="#c0392b" stroke-width="2" opacity="0.5"/>
+  <circle cx="99" cy="276" r="5" fill="#c0392b" opacity="0.4"/>
+  <line x1="99" y1="281" x2="99" y2="296" stroke="#c0392b" stroke-width="2" opacity="0.4"/>
+  <text x="125" y="236" font-size="12" font-weight="bold" fill="#2c4a2c">Armed Conflict</text>
+  <text x="125" y="253" font-size="10" fill="#4a5a4a">Violence, displacement</text>
+  <text x="125" y="267" font-size="10" fill="#4a5a4a">3+ decades of instability</text>
+  <text x="125" y="281" font-size="10" fill="#4a5a4a">in Somalia</text>
+  <text x="125" y="300" font-size="10.5" fill="#c0392b" font-style="italic">→ 70.9% food insecure</text>
+
+  <!-- ---- SHOCK BOX 3: COVID ---- -->
+  <rect x="40" y="334" width="255" height="110" rx="10" fill="#f6f4fc" stroke="#b0a0d8" stroke-width="1.5"/>
+  <!-- Virus icon -->
+  <circle cx="82" cy="372" r="16" fill="none" stroke="#7b5ea7" stroke-width="2.2"/>
+  <circle cx="82" cy="372" r="8" fill="#c8b8e8" opacity="0.7"/>
+  <g stroke="#7b5ea7" stroke-width="2" stroke-linecap="round">
+    <line x1="82" y1="352" x2="82" y2="348"/><circle cx="82" cy="347" r="2.5" fill="#7b5ea7"/>
+    <line x1="82" y1="392" x2="82" y2="396"/><circle cx="82" cy="397" r="2.5" fill="#7b5ea7"/>
+    <line x1="62" y1="372" x2="58" y2="372"/><circle cx="57" cy="372" r="2.5" fill="#7b5ea7"/>
+    <line x1="102" y1="372" x2="106" y2="372"/><circle cx="107" cy="372" r="2.5" fill="#7b5ea7"/>
+    <line x1="68" y1="358" x2="65" y2="355"/><circle cx="64" cy="354" r="2.5" fill="#7b5ea7"/>
+    <line x1="96" y1="386" x2="99" y2="389"/><circle cx="100" cy="390" r="2.5" fill="#7b5ea7"/>
+  </g>
+  <!-- Dollar sign dropping -->
+  <text x="108" y="368" font-size="22" fill="#7b5ea7" opacity="0.5">↓</text>
+  <text x="125" y="357" font-size="12" font-weight="bold" fill="#2c4a2c">COVID-19 Pandemic</text>
+  <text x="125" y="374" font-size="10" fill="#4a5a4a">79% households lost income</text>
+  <text x="125" y="388" font-size="10" fill="#4a5a4a">37% faced extreme hunger</text>
+  <text x="125" y="402" font-size="10" fill="#4a5a4a">during pandemic period</text>
+  <text x="125" y="421" font-size="10.5" fill="#7b5ea7" font-style="italic">→ erases adaptation gains</text>
+
+  <!-- ══════════════════════ CENTRAL ARROWS ══════════════════════ -->
+  <!-- Three arrows converging to center box -->
+  <path d="M 298 147 Q 345 147 360 220" stroke="#4a7c59" stroke-width="2" fill="none" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <path d="M 298 268 L 362 268" stroke="#c0392b" stroke-width="2" fill="none" stroke-dasharray="5,3" marker-end="url(#arrRed)"/>
+  <path d="M 298 389 Q 345 389 360 310" stroke="#7b5ea7" stroke-width="2" fill="none" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════ COLUMN 2: CENTER FINDINGS ══════════════════════ -->
+  <text x="580" y="82" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#4a7c59" letter-spacing="0.5">KEY FINDINGS</text>
+
+  <!-- Central displacement box -->
+  <rect x="365" y="90" width="215" height="80" rx="10" fill="#eef5ee" stroke="#4a7c59" stroke-width="2"/>
+  <text x="472" y="112" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a1a">Somalia IDPs</text>
+  <text x="472" y="128" text-anchor="middle" font-size="10" fill="#3a5a3a">n = 2,450 households</text>
+  <text x="472" y="143" text-anchor="middle" font-size="10" fill="#3a5a3a">5 population types across</text>
+  <text x="472" y="158" text-anchor="middle" font-size="10" fill="#3a5a3a">6 federal member states</text>
+
+  <!-- Findings 1 -->
+  <rect x="365" y="188" width="215" height="78" rx="8" fill="#fff8ec" stroke="#d4891a" stroke-width="1.5"/>
+  <text x="472" y="207" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8a4a00">Finding 1</text>
+  <line x1="375" y1="213" x2="570" y2="213" stroke="#f0c880" stroke-width="1"/>
+  <text x="472" y="228" text-anchor="middle" font-size="10" fill="#5a3a00">Displacement driver (climate</text>
+  <text x="472" y="242" text-anchor="middle" font-size="10" fill="#5a3a00">vs. conflict) explains little</text>
+  <text x="472" y="256" text-anchor="middle" font-size="10" fill="#5a3a00">variation in multivariate models</text>
+
+  <!-- Finding 2 -->
+  <rect x="365" y="278" width="215" height="78" rx="8" fill="#eef8f0" stroke="#4a7c59" stroke-width="1.5"/>
+  <text x="472" y="297" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1a5a1a">Finding 2</text>
+  <line x1="375" y1="303" x2="570" y2="303" stroke="#90c898" stroke-width="1"/>
+  <text x="472" y="318" text-anchor="middle" font-size="10" fill="#1a4a1a">Protracted displacement</text>
+  <text x="472" y="332" text-anchor="middle" font-size="10" fill="#1a4a1a">(&gt;12 months) is</text>
+  <text x="472" y="346" text-anchor="middle" font-size="10" fill="#1a4a1a">protective (OR –1.063***)</text>
+
+  <!-- Finding 3 -->
+  <rect x="365" y="368" width="215" height="78" rx="8" fill="#fdf0f0" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="472" y="387" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8a0a0a">Finding 3</text>
+  <line x1="375" y1="393" x2="570" y2="393" stroke="#e09090" stroke-width="1"/>
+  <text x="472" y="408" text-anchor="middle" font-size="10" fill="#6a0a0a">COVID income shocks</text>
+  <text x="472" y="422" text-anchor="middle" font-size="10" fill="#6a0a0a">erase adaptation gains;</text>
+  <text x="472" y="436" text-anchor="middle" font-size="10" fill="#6a0a0a">"other-reason" IDPs hit hardest</text>
+
+  <!-- Arrow from central box to findings -->
+  <line x1="472" y1="170" x2="472" y2="186" stroke="#4a7c59" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="472" y1="266" x2="472" y2="276" stroke="#4a7c59" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="472" y1="356" x2="472" y2="366" stroke="#4a7c59" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════ COLUMN 3: BAR CHART ══════════════════════ -->
+  <!-- vertical separator -->
+  <line x1="600" y1="68" x2="600" y2="510" stroke="#d8e4d8" stroke-width="1.2"/>
+
+  <text x="795" y="82" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#4a7c59" letter-spacing="0.5">FOOD INSECURITY RATE (%)</text>
+
+  <!-- Chart area -->
+  <!-- Y axis -->
+  <line x1="640" y1="95" x2="640" y2="385" stroke="#aaa" stroke-width="1.5"/>
+  <!-- X axis -->
+  <line x1="637" y1="385" x2="1000" y2="385" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- Y gridlines + labels -->
+  <g font-size="9" fill="#888" text-anchor="end">
+    <line x1="637" y1="385" x2="1000" y2="385" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="637" y1="312" x2="1000" y2="312" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="637" y1="239" x2="1000" y2="239" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="637" y1="166" x2="1000" y2="166" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="637" y1="95" x2="1000" y2="95" stroke="#e8e8e8" stroke-width="1"/>
+    <text x="633" y="388">0</text>
+    <text x="633" y="315">25</text>
+    <text x="633" y="242">50</text>
+    <text x="633" y="169">75</text>
+    <text x="633" y="98">100</text>
+  </g>
+  <text x="610" y="245" font-size="9" fill="#888" text-anchor="middle" transform="rotate(-90, 610, 245)">% Food Insecure</text>
+
+  <!-- Bars: scale: 0%=385, 100%=95 → 1% = 2.9px -->
+  <!-- Host: 49.7% → height = 144 → y = 385-144 = 241 -->
+  <rect x="658" y="241" width="52" height="144" rx="4" fill="#4a7c59" opacity="0.75"/>
+  <text x="684" y="237" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#2a5a2a">49.7</text>
+  <text x="684" y="400" text-anchor="middle" font-size="9" fill="#444">Host</text>
+
+  <!-- IDP-Camp: 76.2% → 221 → y=164 -->
+  <rect x="722" y="164" width="52" height="221" rx="4" fill="#c0392b" opacity="0.70"/>
+  <text x="748" y="160" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#900">76.2</text>
+  <text x="748" y="400" text-anchor="middle" font-size="9" fill="#444">IDP</text>
+  <text x="748" y="411" text-anchor="middle" font-size="9" fill="#444">Camp</text>
+
+  <!-- IDP-Outside: 60.7% → 176 → y=209 -->
+  <rect x="786" y="209" width="52" height="176" rx="4" fill="#d4891a" opacity="0.75"/>
+  <text x="812" y="205" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8a4800">60.7</text>
+  <text x="812" y="400" text-anchor="middle" font-size="9" fill="#444">IDP</text>
+  <text x="812" y="411" text-anchor="middle" font-size="9" fill="#444">Outside</text>
+
+  <!-- Refugees: 79.2% → 230 → y=155 -->
+  <rect x="850" y="155" width="52" height="230" rx="4" fill="#7b1a1a" opacity="0.70"/>
+  <text x="876" y="151" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#7b1a1a">79.2</text>
+  <text x="876" y="400" text-anchor="middle" font-size="9" fill="#444">Refugees</text>
+
+  <!-- Returnees: 58.0% → 168 → y=217 -->
+  <rect x="914" y="217" width="52" height="168" rx="4" fill="#5a7a9a" opacity="0.75"/>
+  <text x="940" y="213" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1a3a5a">58.0</text>
+  <text x="940" y="400" text-anchor="middle" font-size="9" fill="#444">Returnees</text>
+
+  <!-- Reference dashed line at 50% -->
+  <line x1="640" y1="240" x2="1000" y2="240" stroke="#4a7c59" stroke-width="1.2" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="1005" y="244" font-size="8.5" fill="#4a7c59">50%</text>
+
+  <!-- ══════════════════════ COLUMN 4: POLICY (right) ══════════════════════ -->
+  <line x1="1020" y1="68" x2="1020" y2="510" stroke="#d8e4d8" stroke-width="1.2"/>
+  <text x="1174" y="82" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#4a7c59" letter-spacing="0.5">POLICY IMPLICATIONS</text>
+
+  <!-- Policy 1 -->
+  <rect x="1032" y="92" width="280" height="88" rx="8" fill="#f0f7f2" stroke="#4a7c59" stroke-width="1.5"/>
+  <!-- icon: universal shield -->
+  <circle cx="1060" cy="127" r="18" fill="#c8e4ce" stroke="#4a7c59" stroke-width="1.5"/>
+  <text x="1060" y="133" text-anchor="middle" font-size="18" fill="#2a6a2a">①</text>
+  <text x="1088" y="112" font-size="10.5" font-weight="bold" fill="#1a4a1a">Universal Protection</text>
+  <text x="1088" y="127" font-size="9.5" fill="#3a5a3a">Move beyond cause-based</text>
+  <text x="1088" y="141" font-size="9.5" fill="#3a5a3a">categorization; shock-responsive</text>
+  <text x="1088" y="155" font-size="9.5" fill="#3a5a3a">social protection for all IDPs</text>
+  <text x="1088" y="170" font-size="9.5" fill="#3a5a3a">regardless of displacement type</text>
+
+  <!-- Policy 2 -->
+  <rect x="1032" y="192" width="280" height="88" rx="8" fill="#fdf8ee" stroke="#d4891a" stroke-width="1.5"/>
+  <circle cx="1060" cy="227" r="18" fill="#fce4b8" stroke="#d4891a" stroke-width="1.5"/>
+  <text x="1060" y="233" text-anchor="middle" font-size="18" fill="#8a4800">②</text>
+  <text x="1088" y="212" font-size="10.5" font-weight="bold" fill="#6a3800">Development Framing</text>
+  <text x="1088" y="227" font-size="9.5" fill="#5a4a00">Treat protracted displacement</text>
+  <text x="1088" y="241" font-size="9.5" fill="#5a4a00">(&gt;12 months) as development</text>
+  <text x="1088" y="255" font-size="9.5" fill="#5a4a00">challenge, not perpetual</text>
+  <text x="1088" y="270" font-size="9.5" fill="#5a4a00">emergency relief</text>
+
+  <!-- Policy 3 -->
+  <rect x="1032" y="292" width="280" height="88" rx="8" fill="#fdf0f0" stroke="#c0392b" stroke-width="1.5"/>
+  <circle cx="1060" cy="327" r="18" fill="#f8c8c8" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="1060" y="333" text-anchor="middle" font-size="18" fill="#900">③</text>
+  <text x="1088" y="312" font-size="10.5" font-weight="bold" fill="#700">Inclusive Frameworks</text>
+  <text x="1088" y="327" font-size="9.5" fill="#600">Expand humanitarian assistance</text>
+  <text x="1088" y="341" font-size="9.5" fill="#600">to "other-reason" displaced</text>
+  <text x="1088" y="355" font-size="9.5" fill="#600">(economic IDPs invisible</text>
+  <text x="1088" y="370" font-size="9.5" fill="#600">to standard aid frameworks)</text>
+
+  <!-- Arrows from chart to policy -->
+  <path d="M 1002 230 L 1030 230" stroke="#4a7c59" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════ BOTTOM SUMMARY STRIP ══════════════════════ -->
+  <rect x="0" y="450" width="1328" height="55" fill="#f0f6f1"/>
+  <line x1="0" y1="450" x2="1328" y2="450" stroke="#a8c8b0" stroke-width="1.2"/>
+
+  <!-- Displacement driver comparison (horizontal mini-bars) -->
+  <text x="60" y="468" font-size="10" font-weight="bold" fill="#2a4a2a">Displacement Driver Comparison (food insecurity rate):</text>
+  <!-- Climate -->
+  <text x="60" y="487" font-size="9.5" fill="#4a7c59">Climate</text>
+  <rect x="110" y="478" width="80" height="12" rx="3" fill="#4a7c59" opacity="0.6"/>
+  <text x="196" y="489" font-size="9.5" fill="#2a5a2a" font-weight="bold">53.4%</text>
+  <text x="240" y="489" font-size="9" fill="#888" font-style="italic">lowest (↓) among IDPs</text>
+  <!-- Conflict -->
+  <text x="355" y="487" font-size="9.5" fill="#c0392b">Conflict</text>
+  <rect x="400" y="478" width="106" height="12" rx="3" fill="#c0392b" opacity="0.6"/>
+  <text x="512" y="489" font-size="9.5" fill="#900" font-weight="bold">70.9%</text>
+  <!-- Other -->
+  <text x="570" y="487" font-size="9.5" fill="#7b5ea7">Other/Econ.</text>
+  <rect x="640" y="478" width="99" height="12" rx="3" fill="#7b5ea7" opacity="0.6"/>
+  <text x="745" y="489" font-size="9.5" fill="#4a2a7a" font-weight="bold">66.4%</text>
+  <text x="796" y="489" font-size="9" fill="#888" font-style="italic">most vulnerable under COVID shocks</text>
+
+  <!-- Note -->
+  <text x="60" y="500" font-size="8.5" fill="#7a8a7a" font-style="italic">*Driver differences disappear in multivariate weighted logit models. Duration and COVID income shocks are stronger predictors of food insecurity.</text>
+
+  <!-- Journal attribution -->
+  <text x="1268" y="472" text-anchor="end" font-size="9" fill="#7a8a7a" font-style="italic">Journal of Agriculture and Food Research</text>
+  <text x="1268" y="486" text-anchor="end" font-size="9" fill="#7a8a7a">Mohamed &amp; Dirir, Nagoya University</text>
+  <text x="1268" y="500" text-anchor="end" font-size="8.5" fill="#9aaa9a">Data: World Bank HFPS Somalia 2020–2021</text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="525" width="1328" height="6" fill="#4a7c59"/>
+
+</svg>
