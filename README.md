@@ -1,8 +1,8 @@
-
+# Graphical Abstract — Compound Shocks & Food Security in Somalia
 
 > **Interactive graphical abstract** for the research article:  
 > *"Compound Shocks and Food Security in Protracted Displacement: Differential Impacts of Climate vs Conflict Drivers Under COVID-19 in Somalia"*  
-> Mohamed & Dirir | Nagoya University | *Journal of Agriculture and Food Research*
+> Mohamed & Dirir | Nagoya University |
 
 ---
 
